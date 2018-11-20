@@ -7,6 +7,11 @@ gulp.task('connect', function() {
  
 gulp.task('default', ['connect']);
 
+gulp.task('copy', function() {
+  gulp.src('index.html')
+  .pipe(gulp.dest('assets'))
+});
+
 // Copy third party libraries from /node_modules into /vendor
 
 

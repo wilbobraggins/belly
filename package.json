@@ -1,0 +1,19 @@
+{
+  "name": "belly",
+  "version": "1.0.0",
+  "description": "dance site",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilbobraggins/belly.git"
+  },
+  "author": "william",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wilbobraggins/belly/issues"
+  },
+  "homepage": "https://github.com/wilbobraggins/belly#readme"
+}
