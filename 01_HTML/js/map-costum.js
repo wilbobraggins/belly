@@ -6,10 +6,10 @@
         // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
         var mapOptions = {
             // How zoomed in you want the map to start at (always required)
-            zoom: 14,
+            zoom: 12,
 
             // The latitude and longitude to center the map (always required)
-            center: new google.maps.LatLng(42.6610638, 21.1986866), // New York
+            center: new google.maps.LatLng(45.5122, -122.6587), // New York
 
 
             mapTypeControl: true,

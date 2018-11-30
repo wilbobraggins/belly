@@ -11,9 +11,22 @@
     "url": "git+https://github.com/wilbobraggins/belly.git"
   },
   "author": "william",
-  "license": "ISC",
+  "license": "BSD",
   "bugs": {
     "url": "https://github.com/wilbobraggins/belly/issues"
   },
-  "homepage": "https://github.com/wilbobraggins/belly#readme"
+  "homepage": "https://github.com/wilbobraggins/belly#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.6.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-task": "^2.1.0"
+  },
+  "dependencies": {
+    "gulp-open": "^3.0.1"
+  },
+  "gitHead": "fb567971f298322f407b7c967e734b25761cce7a"
 }

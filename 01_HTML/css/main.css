@@ -470,6 +470,8 @@ a:hover>span.site-name{
 
 .logo h1 {
     line-height: 100px;
+    font-family: 'azedobold', sans-serif;
+    font-size: 35px;
 }
 
 /*Slider Home*/
@@ -560,6 +562,11 @@ a:hover>span.site-name{
     opacity: 1;
 }
 .header-page {
+    background: url(images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     position: relative;
     min-height: 450px;
 }
@@ -1952,10 +1959,13 @@ ul.client-thumb-2 li a img:hover{
     margin-bottom: 30px;
 }
 .img img {
-    display: block;
-    margin: auto;
     max-width: 100%;
-    height: auto;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    overflow: hidden;
     transition: opacity 0.35s, -webkit-transform 0.35s;
     transition: opacity 0.35s, transform 0.35s;
     -o-transition: opacity 0.35s, -o-transform 0.35s;
@@ -2259,7 +2269,14 @@ span.press {
 }
 /* Height of portfolio */
 .home-portfolio-image {
-    height: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    overflow: hidden;
 }
 /* Height 3 column Portfolio */
 .height-3column {
@@ -3125,4 +3142,8 @@ a img.aligncenter {
 }
 .alert-danger .alert-link {
   color: #d2d2d2;
+}
+.center {
+    margin: 0 auto;
+    width: 80%
 }
