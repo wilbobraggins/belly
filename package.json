@@ -26,7 +26,8 @@
     "gulp-task": "^2.1.0"
   },
   "dependencies": {
-    "gulp-open": "^3.0.1"
+    "gulp-open": "^3.0.1",
+    "s3-deploy": "^1.3.0"
   },
   "gitHead": "fb567971f298322f407b7c967e734b25761cce7a"
 }
