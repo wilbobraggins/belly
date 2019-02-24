@@ -1,8 +1,5 @@
 /*
     Name: OAK
-    Version: 1.1
-    Author: EliteFingers
-    Author URI: http://www.elitefingers.com
 */
 
 /* =Table of Contents
@@ -29,7 +26,14 @@
 
 /* =Common Styles
 -------------------------------------------------------------- */
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('../fonts/alexbrush-regular-webfont.woff2') format('woff2'),
+         url('../fonts/alexbrush-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
+}
 @font-face {
     font-family: 'azedobold';
     src: url('../fonts/azedo-bold-webfont.eot');
@@ -183,7 +187,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Lekton', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     letter-spacing: 1.3pt;
     color: #111111;
     clear: both;
@@ -470,7 +474,7 @@ a:hover>span.site-name{
 
 .logo h1 {
     line-height: 100px;
-    font-family: 'azedobold', sans-serif;
+    font-family: 'alex_brushregular', sans-serif;
     font-size: 75px;
 }
 
